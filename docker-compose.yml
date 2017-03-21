@@ -1,0 +1,12 @@
+db:
+  image: mongo:3.4
+  ports:
+    - "27018:27017"
+web:
+  build: .
+  links:
+    - db
+  ports:
+    - "3000:3000"
+  environment:
+    NODE_ENV: test

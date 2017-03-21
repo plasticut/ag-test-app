@@ -1,0 +1,11 @@
+{
+    "server": {
+        "host": "HOSTNAME",
+        "port": "PORT"
+    },
+
+    "db": {
+        "host": "DB_PORT_27017_TCP_ADDR",
+        "port": "DB_PORT_27017_TCP_PORT"
+    }
+}

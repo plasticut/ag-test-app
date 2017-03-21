@@ -1,0 +1,22 @@
+{
+    "db": {
+        "host": "localhost",
+        "port": "27017",
+        "database": "ag-test-app",
+        "options": {
+            "user": "",
+            "pass": ""
+        },
+        "debug": false
+    },
+
+    "server": {
+        "host": "localhost",
+        "port": 3000
+    },
+
+    "jwt": {
+        "secretOrKey": "46913873-20c5-46b3-bc22-71e5ef11ed48",
+        "expiresIn": 7200
+    }
+}
