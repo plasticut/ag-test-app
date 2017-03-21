@@ -1,0 +1,46 @@
+{
+  "name": "ag-test-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "bluebird": "^3.5.0",
+    "body-parser": "^1.17.1",
+    "compression": "^1.6.2",
+    "config": "^1.25.1",
+    "express": "^4.15.2",
+    "forever": "^0.15.3",
+    "helmet": "^3.5.0",
+    "jsonwebtoken": "^7.3.0",
+    "mongoose": "^4.9.1",
+    "morgan": "^1.8.1",
+    "passport": "^0.3.2",
+    "passport-jwt": "^2.2.1",
+    "passport-local": "^1.0.0"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "gulp": "^3.9.1",
+    "gulp-eslint": "^3.0.1",
+    "gulp-istanbul": "^1.1.1",
+    "gulp-jshint": "^2.0.4",
+    "gulp-load-plugins": "^1.5.0",
+    "gulp-mocha": "^3.0.1",
+    "gulp-nodemon": "^2.2.1",
+    "mocha": "^3.2.0",
+    "istanbul": "^0.4.5",
+    "jshint": "^2.9.4",
+    "run-sequence": "^1.2.2",
+    "supertest": "^3.0.0"
+  },
+  "scripts": {
+    "start": "node ./server",
+    "test": "gulp test"
+  },
+  "author": "plasticut@gmail.com",
+  "license": "ISC",
+  "engines": {
+    "node": "6.10.x",
+    "npm": "3.10.x"
+  }
+}

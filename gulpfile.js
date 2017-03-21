@@ -16,9 +16,9 @@ const
 
 
 // Set NODE_ENV to 'test'
-gulp.task('env:test', ()=>process.env.NODE_ENV = 'test');
-gulp.task('env:dev',  ()=>process.env.NODE_ENV = 'development');
-gulp.task('env:prod', ()=>process.env.NODE_ENV = 'production');
+gulp.task('env:test', () => process.env.NODE_ENV = 'test' );
+gulp.task('env:dev',  () => process.env.NODE_ENV = 'development' );
+gulp.task('env:prod', () => process.env.NODE_ENV = 'production' );
 
 // Nodemon task
 gulp.task('nodemon', function () {
@@ -82,7 +82,6 @@ gulp.task('istanbul-init', function () {
 
 // Mocha tests task
 gulp.task('mocha', ['istanbul-init'], function (done) {
-    let error;
 
     return gulp.src(defaultAssets.tests, { read: false })
         .pipe(plugins.mocha({
